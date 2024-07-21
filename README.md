@@ -34,7 +34,12 @@ Perform the initial setup to configure the tool with your Instagram session ID:
 python3 osintagram.py --setup
 ```
 Follow the prompt to enter your Instagram session ID. The session ID will be encrypted and saved securely in the configuration file.
-Your Instagram session ID is you SessionID cookie, obviously.
+
+Your Instagram session ID is your Instagram SessionID cookie, obviously.
+
+That means you should be careful and use a sockpuppet account, just in case...
+
+the setup will creates 2 files: `config.ini` and `secret.key`
 
 ## Usage
 To fetch information about an Instagram user, use the following command:
